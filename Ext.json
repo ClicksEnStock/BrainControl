@@ -1,0 +1,167 @@
+{
+    "About": {
+        "Name": "Brain Control v1.0",
+        "Author": "Conceptgame",
+        "Copyright": "Copyright (C) 2013 conceptgame",
+        "Comment": "Read brain signal through Neurosky headset",
+        "URL": "",
+        "Help": "Help/BrainControl.chm",
+        "Identifier": "BRAI",
+		"Dependencies": ["thinkgear.dll"]
+    },
+    "ActionMenu": [
+        "Separator",
+		[
+            0,
+            "Start Recording"
+        ],
+		[
+            1,
+            "Stop Recording"
+        ],
+		"Separator"
+    ],
+    "ConditionMenu": [
+		"Separator",
+        [
+            0,
+            "OnError"
+        ],
+		 [
+            1,
+            "IsConnected"
+        ],
+		"Separator"
+    ],
+    "ExpressionMenu": [
+         "Separator",
+		 [
+            0,
+            "LastError"
+        ],
+		[
+            1,
+            "Attention"
+        ],
+        [
+            2,
+            "Meditation"
+        ],
+		[
+            3,
+            "Delta"
+        ],
+		[
+            4,
+            "Theta"
+        ],
+		[
+            5,
+            "Alpha1"
+        ],
+		[
+            6,
+            "Alpha2"
+        ],
+		[
+            7,
+            "Beta1"
+        ],
+		[
+            8,
+            "Beta2"
+        ],
+		[
+            9,
+            "Gamma1"
+        ],
+		[
+            10,
+            "Gamma2"
+        ],
+		[
+            11,
+            "PoorSignal"
+        ],
+		[
+            12,
+            "Dll Version"
+        ],
+		"Separator"
+    ],
+    "Actions": [
+        {
+            "Title": "Start Recording on COM%0",
+			"Parameters": [
+                ["Integer","Com Port Number"]
+			]
+        },
+        {
+            "Title": "Stop Recording"
+        }
+    ],
+    "Conditions": [
+        {
+            "Title": "%o : On Error",
+            "Triggered": false
+        },
+		{
+            "Title": "%o : Is Connected?",
+            "Triggered": false
+        }
+    ],
+    "Expressions": [
+        {
+            "Title": "LastError$(",
+            "Returns": "Text"
+        },
+		{
+            "Title": "Attention(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "Meditation(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "Delta(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "Theta(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "Alpha1(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "Alpha2(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "Beta1(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "Beta2(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "Gamma1(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "Gamma2(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "PoorSignal(",
+            "Returns": "Float"
+        },
+		{
+            "Title": "DllVersion(",
+            "Returns": "Integer"
+        }
+   ]
+}

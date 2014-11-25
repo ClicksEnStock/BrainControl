@@ -1,0 +1,25 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling j:\windows-edif-master\Extensions\BrainControl_Help\BrainControl.chm
+
+htm\index.htm
+htm\desc.htm
+htm\prop.htm
+htm\act.htm
+htm\cnd.htm
+htm\exp.htm
+ext_cnt.hhc
+ext_index.hhk
+Htm\errors.htm
+Htm\license.htm
+htm\Images\Icon.png
+
+Compile time: 0 minutes, 0 seconds
+10	Topics
+37	Local links
+0	Internet links
+1	Graphic
+
+
+Created j:\windows-edif-master\Extensions\BrainControl_Help\BrainControl.chm, 17,785 bytes
+Compression increased file by 3,059 bytes.
